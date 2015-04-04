@@ -19,7 +19,7 @@ public class demo {
     private static AudioPlayer player;
     static {
         try {
-            System.setProperty("mary.base","/Users/evilgod528/Documents/build/idea/everyIT/maryTTS");
+            System.setProperty("mary.base","/Users/****/Documents/build/idea/everyIT/maryTTS");
             marytts = new LocalMaryInterface();
             Set<String> voices = marytts.getAvailableVoices();
             marytts.setVoice(voices.iterator().next());
